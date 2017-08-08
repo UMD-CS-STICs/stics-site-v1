@@ -1,0 +1,118 @@
+body {
+    background-color: #FFF6F6;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #8B572A;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.nav {
+    color: #8B572A;
+    margin-top: 8.7%;
+    margin-bottom: 6%;
+}
+
+.navEle {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.25em;
+    color: #AA4033;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.7em;
+    color: #AA4033;
+}
+
+p {
+    color: #4A4A4A;
+    letter-spacing: 0;
+    line-height: 2em;
+    margin-top: 3.9%;
+    margin-bottom: 3.9%;
+}
+
+p a {
+    color: #4990E2;
+    text-decoration: none;
+}
+
+.verticalCentering a {
+    color: #4990E2;
+    text-decoration: none;
+}
+
+.entry {
+    margin-bottom: 7.8%;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #AA4033;
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    font-size: 0.8em;
+    color: rgba(152, 152, 152, 0.4);
+}
+
+#displayedCourses {
+    margin-top: 7.8%;
+}
+
+.title {
+    color: #AA4033;
+    margin-bottom: 1%;
+}
+
+.hours {
+    margin-top: 1%;
+    color: #9B9B9B;
+}
+
+.description {
+    color: #4A4A4A;
+    line-height: 1.5em;
+}
+
+#contactPic {
+    width: 5%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    -ms-transition: -ms-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+#contactPic:hover {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.bigApple {
+    width: 40%;
+    padding-bottom: 10%;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+.bigApple:hover {
+    transform: scale(1.1);
+}

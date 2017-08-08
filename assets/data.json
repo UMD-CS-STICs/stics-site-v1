@@ -1,0 +1,66 @@
+{
+    "classes": {
+        "spring17": {
+            "departments": ["CMSC"],
+            "classes": [{
+                "id": 0,
+                "department": "CMSC",
+                "number": "389K",
+                "title": "Full-stack Web Development with Node.js",
+                "facilitators": ["Ishaan Parikh", "Sashank Thupukari"],
+                "advisor": "Nelson Padua Perez",
+                "credits": 1,
+                "description": "This course provides a comprehensive, practical introduction to modern full-stack web development using JavaScript and Node.js. The course will start with basic HTML/CSS/JavaScript. Then, we will move into Node.js and learn how to deploy a website from there. We will learn about Express.js (server-side development module) and MongoDB (database) in order to create a complete web application.",
+            }]
+        },
+        "fall2017": {
+            "departments": ["CMSC", "MATH", ""],
+            "classes": [{
+                "id": 1,
+                "department": "CMSC",
+                "number": "389K",
+                "title": "Full-stack Web Development with Node.js",
+                "facilitators": ["Ishaan Parikh", "Sashank Thupukari"],
+                "advisor": "Nelson Padua Perez",
+                "credits": 1,
+                "description": "This course provides a comprehensive, practical introduction to modern full-stack web development using JavaScript and Node.js. The course will start with basic HTML/CSS/JavaScript. Then, we will move into Node.js and learn how to deploy a website from there. We will learn about Express.js (server-side development module) and MongoDB (database) in order to create a complete web application.",
+            }, {
+                "id": 2,
+                "department": "CMSC",
+                "number": "389",
+                "title": "Practical Cloud Computing",
+                "facilitators": ["Colin King"],
+                "advisor": "Neil Spring",
+                "credits": 1,
+                "description": "This course provides a practical and project-oriented introduction to cloud computing with Amazon Web Services (AWS). Students will learn how to build applications using a variety of AWS services, including S3, EC2, Lambda, and Beanstalk. The course will culminate in a final resume-worthy project that will be built, deployed, and demoed to the class."
+            }, {
+                "id": 3,
+                "department": "CMSC",
+                "number": "389",
+                "title": "The Coding Interview",
+                "facilitators": ["Cameron Payton", "Ishaan Parikh"],
+                "advisor": "Dave Levin",
+                "credits": 1,
+                "description": "This course provides a comprehensive, practical introduction to technical interviews. The course will start with basic topics such as Big O and String Manipulation. We will then move into more complex topics such as Bit Manipulation and Dynamic Programming."
+            }, {
+                "id": 4,
+                "department": "BMGT",
+                "number": "389",
+                "title": "Product Design",
+                "facilitators": ["Jordan Steiner"],
+                "advisor": "Pamela Armstrong",
+                "credits": 1,
+                "description": "This course will discuss the meaning behind design and how to communicate a message with product design. Students will interact in product discussions and understand how and why products are designed. From this, students will then apply learning to create concepts and prototypes for modern problems. Students will also get the chance to interact with real startup companies to assist in live cases to design products. Overall, students will learn and apply product design methodologies to concept a solution to a problem of their choosing."
+            }, {
+                "id": 5,
+                "department": "MATH",
+                "number": "389",
+                "title": "Mathematics of Ramanujan",
+                "facilitators": ["Eric Metz", "Tanay Wakhare"],
+                "advisor": "Lawrence Washington",
+                "credits": 1,
+                "description": "This course will discuss the meaning behind design and how to communicate a message with product design. Students will interact in product discussions and understand how and why products are designed. From this, students will then apply learning to create concepts and prototypes for modern problems. Students will also get the chance to interact with real startup companies to assist in live cases to design products. Overall, students will learn and apply product design methodologies to concept a solution to a problem of their choosing."
+            }]
+        }
+    }
+}
