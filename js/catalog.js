@@ -86,6 +86,23 @@ var CLASSES = {
       departments: ['CMSC', 'MATH', 'BMGT'],
       classes: [
         {
+          id: 6,
+          department: 'ENSP',
+          number: '399E',
+          title:
+            'The Role of Evidence-based Advocacy in Environmental Politics',
+          facilitators: ['Margaret Houlihan', 'Camilla Arias'],
+          advisor: 'Joanna Goger',
+          credits: 1,
+          description:
+            'Students will learn about and discuss tools for effective advocacy and how that fits into the policy process by looking through the lenses of deforestation, water quality, and climate change.  They will become better able to enact change in environmental movements as they see fit using principles learned throughout the semester. They will be invited to share their opinions, and reflect on the opinions of their peers. Through assignments such as emailing members of congress or reaching out to UMD Facilities Management, students will practice involving others in their advocacy as well.',
+          syllabus:
+            'https://www.dropbox.com/s/zm6o7igkpcnzxm0/Syllabus%20ENSP399E.pdf?dl=0',
+          room: 'PLS1129',
+          day: 'Thursday',
+          time: '12:30 - 1:20 PM'
+        },
+        {
           id: 1,
           department: 'CMSC',
           number: '389K',
@@ -162,23 +179,7 @@ var CLASSES = {
           day: 'Friday',
           time: '3-3:50 PM'
         },
-        {
-          id: 6,
-          department: 'ENSP',
-          number: '399E',
-          title:
-            'The Role of Evidence-based Advocacy in Environmental Politics',
-          facilitators: ['Margaret Houlihan', 'Camilla Arias'],
-          advisor: 'Joanna Goger',
-          credits: 1,
-          description:
-            'Students will learn about and discuss tools for effective advocacy and how that fits into the policy process by looking through the lenses of deforestation, water quality, and climate change.  They will become better able to enact change in environmental movements as they see fit using principles learned throughout the semester. They will be invited to share their opinions, and reflect on the opinions of their peers. Through assignments such as emailing members of congress or reaching out to UMD Facilities Management, students will practice involving others in their advocacy as well.',
-          syllabus:
-            'https://www.dropbox.com/s/zm6o7igkpcnzxm0/Syllabus%20ENSP399E.pdf?dl=0',
-          room: 'PLS1129',
-          day: 'Thursday',
-          time: '12:30 - 1:20 PM'
-        },
+
         {
           id: 7,
           department: 'MUSC',
