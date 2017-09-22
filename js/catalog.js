@@ -36,6 +36,10 @@ function getFacilitatorsText(fs) {
   return text;
 }
 
+function getAdvisorText(a) {
+  return `Advisor: ${a}`
+}
+
 function createDiv(cl) {
   return `<div class="row entry"> \
       <div class="six columns verticalCentering"> \
@@ -45,6 +49,9 @@ function createDiv(cl) {
           </div> \
           <div class="facilitatorsText"> \
             ${getFacilitatorsText(cl.facilitators)}
+          </div> \
+          <div class="facilitatorsText"> \
+            ${getAdvisorText(cl.advisor)}
           </div> \
           <a target="_blank" href="${cl.syllabus}">syllabus</a> \
           <div class="hours">${cl.room}, ${cl.day} ${cl.time}</div> \
