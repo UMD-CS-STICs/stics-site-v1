@@ -1,5 +1,5 @@
 $("#catalog").on("input", function(e) {
-  update();
+  update($('#semester').val());
 });
 
 $("document").ready(function() {
