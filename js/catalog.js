@@ -3,17 +3,21 @@ $("#catalog").on("input", function(e) {
 });
 
 $("document").ready(function() {
-  update();
+  update($('#semester').val());
 });
 
-function update() {
+$("#semester").change(function() {
+  update($('#semester').val());
+});
+
+function update(semester) {
   var input = $("#catalog").val().toUpperCase();
   var classesToDisplay = "";
   var showArchvies = false;
   if ($("#check").is(":checked")) {
     showArchvies = true;
   }
-  var classes = CLASSES.classes[CURRENT].classes;
+  var classes = CLASSES.classes[semester].classes;
   for (var i in classes) {
     var course = classes[i];
     var toTestStr = course.department + course.number;
@@ -91,7 +95,7 @@ var CLASSES = {
       ]
     },
     fall2017: {
-      departments: ["CMSC", "MATH", "BMGT"],
+      departments: ["CMSC", "MATH", "BMGT", "ENSP", "MUSC"],
       classes: [
         {
           id: 6,
@@ -220,6 +224,31 @@ var CLASSES = {
           room: "PAC3160",
           day: "Thursday",
           time: "12:30 - 1:45 PM"
+        }
+      ]
+    },
+    spring2018: {
+      departments: ["CMSC", "MATH", "BMGT", "ENSP", "MUSC"],
+      classes: [
+        {
+          id: 8,
+          department: "CMSC",
+          number: "389C",
+          title:
+            "Bitcoin and Other Cryptocurrencies",
+          facilitators: [
+            { name: "Cameron Payton", email: "cpayton@umd.edu" },
+            { name: "Neil Johnson", email: "nj13127@gmail.com" }
+          ],
+          advisor: "Jonathan Katz",
+          credits: 1,
+          description:
+            "This course provides a comprehensive, practical introduction to the technology behind cryptocurrency and the economy surrounding it. This course will have a heavy emphasis on Bitcoin, but will touch on other types of cryptocurrency as well. This course is primarily intended to focus on the technological aspect of cryptocurrency, but we will also spend time discussing the economics of cryptocurrency.",
+          syllabus:
+            "https://github.com/UMD-CS-STICs/389Cspring18",
+          room: "CSIC3118",
+          day: "Friday",
+          time: "2:00 - 2:50 PM"
         }
       ]
     }
