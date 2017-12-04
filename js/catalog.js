@@ -231,6 +231,26 @@ var CLASSES = {
       departments: ["CMSC", "MATH", "BMGT", "ENSP", "MUSC"],
       classes: [
         {
+          id: 14,
+          department: "ENSP",
+          number: "399E",
+          title:
+            "The Role of Evidenced Based Environmental Advocacy in Environmental Politics",
+          facilitators: [
+            { name: "Margaret Houlihan", email: "mhouli@terpmail.umd.edu" },
+            { name: "Camilla Arias", email: "carias3@umd.edu" }
+          ],
+          advisor: "Joanna Goger",
+          credits: 1,
+          description:
+            "In this course, students will explore the avenues of advocacy, and sound sources on which to base opinions and arguments in environmental policy. Through a discussion-based class, advocacy will be explored in in the areas of deforestation, climate change, and water quality. Students will analyze cases in the environmental movements of effective and ineffective advocacy, hear from a number of guest speakers who are experts in the above topics, and hold discussions on current events related to these topics.",
+          syllabus:
+            "https://docs.google.com/document/d/1-Drnr4f6Xy30LMjwVu6OHTBAb1_UML30MFQL7oBKqhE/edit?usp=sharing",
+          room: "CHE2145",
+          day: "Monday",
+          time: "11:00 - 12:15 PM"
+        },
+        {
           id: 8,
           department: "CMSC",
           number: "389C",
