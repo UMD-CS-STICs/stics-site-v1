@@ -249,6 +249,107 @@ var CLASSES = {
           room: "CSIC3118",
           day: "Friday",
           time: "2:00 - 2:50 PM"
+        },
+        {
+          id: 9,
+          department: "CMSC",
+          number: "389K",
+          title:
+            "Full-Stack Web Development with Node.js",
+          facilitators: [
+            { name: "Timothy Chen", email: "tchen112@terpmail.umd.edu" },
+            { name: "Allen Cheng", email: "ac@allencheng.me" }
+          ],
+          advisor: "Dr. John Dickerson",
+          credits: 1,
+          description:
+            "This course provides a comprehensive, practical introduction to modern full-stack web development using JavaScript and Node.js. The course will start with basic HTML/CSS/JavaScript. Then, we will move into Node.js and learn how to deploy a website from there. We will learn about Express.js (server-side development module) and MongoDB (database) in order to create a complete web application.",
+          syllabus:
+            "https://github.com/UMD-CS-STICs/389Kspring18",
+          room: "CSIC2118",
+          day: "Friday",
+          time: "1:00 - 1:50 PM"
+        },
+        {
+          id: 10,
+          department: "CMSC",
+          number: "389R",
+          title:
+            "Introduction to Ethical Hacking",
+          facilitators: [
+            { name: "Michael Reininger", email: "michael@csec.umiacs.umd.edu" },
+            { name: "William Woodruff", email: "william@yossarian.net" },
+            { name: "Joshua Fleming", email: "secretary@csec.umiacs.umd.edu" }
+          ],
+          advisor: "Dave Levin",
+          credits: 1,
+          description:
+            "An introduction to ethical hacking geared towards entering the competitive world of cybersecurity Capture the Flag (CTF) competitions. Applications to a career in digital forensics, penetration testing, cryptology, and secure software development.",
+          syllabus:
+            "https://github.com/UMD-CS-STICs/389Rspring18",
+          room: "CSIC2118",
+          day: "Friday",
+          time: "3:00 - 3:50 PM"
+        },
+        {
+          id: 11,
+          department: "CMSC",
+          number: "389O",
+          title:
+            "The Coding Interview",
+          facilitators: [
+            { name: "Andi Hopkins", email: "andihop@umd.edu" },
+            { name: "Maria McCulley", email: "mmccull2@umd.edu" },
+            { name: "Sandra Sandeep", email: "ssandeep@umd.edu" }
+          ],
+          advisor: "Thomas Goldstein",
+          credits: 1,
+          description:
+            "This course provides a comprehensive, practical introduction to technical interviews. Starting with basic topics such as Big O and String Manipulation. We will then move into more complex topics such as Bit Manipulation and Dynamic Programming. Most of the classes will be &quot;In-Class Interviews&quot; and take-home assignments will simulate real interview settings.",
+          syllabus:
+            "https://github.com/UMD-CS-STICs/389Ospring18",
+          room: "ESJ2101",
+          day: "Friday",
+          time: "11:00 - 11:50 AM"
+        },
+        {
+          id: 12,
+          department: "CMSC",
+          number: "389F",
+          title:
+            "Reinforcement Learning",
+          facilitators: [
+            { name: "Kevin Chen", email: "kev@umd.edu" },
+            { name: "Zack Khan", email: "zkhan123@umd.edu" }
+          ],
+          advisor: "James Reggia",
+          credits: 1,
+          description:
+            "From mastering impossibly complex games to creating precise AI for self-driving cars, Reinforcement Learning is set to be a breakthrough technology in the coming decade. \nReinforcement Learning is a powerful area of AI responsible for the recent successes of industry titans such as DeepMind, OpenAI, Google Brain, and Tesla. It’s inspired by a simple concept from behavioral psychology- people who receive a reward after doing an activity will continue doing that activity- and applies that principle in an algorithmic way to create intelligent systems.\nIf you’d like to learn how to build an AI of your own using concepts from the cutting-edge of academic research and industry technology, come take CMSC389F: Reinforcement Learning! This course provides a theory-centric introduction to Reinforcement Learning, and students will learn the key concepts and algorithms driving Reinforcement Learning, including Markov Decision Processes, Monte Carlo Learning, and Policy Gradient methods.",
+          syllabus:
+            "https://github.com/mlatmd/cmsc389F",
+          room: "CSIC3118",
+          day: "Friday",
+          time: "12:00 - 12:50 PM"
+        },
+                {
+          id: 13,
+          department: "CMSC",
+          number: "389F",
+          title:
+            "Practical Deep Learning",
+          facilitators: [
+            { name: "Sujith Vishwajith", email: "svishwaj@terpmail.umd.edu" }
+          ],
+          advisor: "Jordan Boyd-Graber",
+          credits: 1,
+          description:
+            "This course provides a comprehensive, practical introduction to modern deep learning networks and their applications to AI tasks. Specifically, the course will cover basic concepts in optimization, neural networks, convolutional neural networks (CNN), and recurrent neural networks (RNN). By the end of the course, it is expected that students will have a strong familiarity with the subject and be able to design and develop deep learning models for a variety of tasks.",
+          syllabus:
+            "https://github.com/UMD-CS-STICs/389Aspring18",
+          room: "CSIC2118",
+          day: "Friday",
+          time: "12:00 - 12:50 PM"
         }
       ]
     }
