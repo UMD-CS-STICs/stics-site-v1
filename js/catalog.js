@@ -354,7 +354,8 @@ var CLASSES = {
           title:
             "Practical Deep Learning",
           facilitators: [
-            { name: "Sujith Vishwajith", email: "svishwaj@terpmail.umd.edu" }
+            { name: "Sujith Vishwajith", email: "svishwaj@terpmail.umd.edu" },
+            { name: "Sashank Thupukari", email: "sthupuka@umd.edu" }
           ],
           advisor: "Jordan Boyd-Graber",
           credits: 1,
