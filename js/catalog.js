@@ -67,7 +67,7 @@ function createDiv(cl) {
     </div>`;
 }
 
-var CURRENT = "fall2017";
+var CURRENT = "spring2018";
 
 var CLASSES = {
   classes: {
@@ -332,7 +332,7 @@ var CLASSES = {
           day: "Friday",
           time: "12:00 - 12:50 PM"
         },
-                {
+        {
           id: 13,
           department: "CMSC",
           number: "389F",
