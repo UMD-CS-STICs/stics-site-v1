@@ -246,26 +246,6 @@ var CLASSES = {
       departments: ["CMSC", "MATH", "BMGT", "ENSP", "MUSC"],
       classes: [
         {
-          id: 14,
-          department: "ENSP",
-          number: "399E",
-          title:
-            "The Role of Evidenced Based Environmental Advocacy in Environmental Politics",
-          facilitators: [
-            { name: "Margaret Houlihan", email: "mhouli@terpmail.umd.edu" },
-            { name: "Camilla Arias", email: "carias3@umd.edu" }
-          ],
-          advisor: "Joanna Goger",
-          credits: 1,
-          description:
-            "In this course, students will explore the avenues of advocacy, and sound sources on which to base opinions and arguments in environmental policy. Through a discussion-based class, advocacy will be explored in in the areas of deforestation, climate change, and water quality. Students will analyze cases in the environmental movements of effective and ineffective advocacy, hear from a number of guest speakers who are experts in the above topics, and hold discussions on current events related to these topics.",
-          syllabus:
-            "https://docs.google.com/document/d/1-Drnr4f6Xy30LMjwVu6OHTBAb1_UML30MFQL7oBKqhE/edit?usp=sharing",
-          room: "CHE2145",
-          day: "Monday",
-          time: "11:00 - 12:15 PM"
-        },
-        {
           id: 8,
           department: "CMSC",
           number: "389C",
@@ -385,6 +365,65 @@ var CLASSES = {
           room: "CSIC2118",
           day: "Friday",
           time: "12:00 - 12:50 PM"
+        },
+        {
+          id: 14,
+          department: "ENSP",
+          number: "399E",
+          title:
+            "The Role of Evidenced Based Environmental Advocacy in Environmental Politics",
+          facilitators: [
+            { name: "Margaret Houlihan", email: "mhouli@terpmail.umd.edu" },
+            { name: "Camilla Arias", email: "carias3@umd.edu" }
+          ],
+          advisor: "Joanna Goger",
+          credits: 1,
+          description:
+            "In this course, students will explore the avenues of advocacy, and sound sources on which to base opinions and arguments in environmental policy. Through a discussion-based class, advocacy will be explored in in the areas of deforestation, climate change, and water quality. Students will analyze cases in the environmental movements of effective and ineffective advocacy, hear from a number of guest speakers who are experts in the above topics, and hold discussions on current events related to these topics.",
+          syllabus:
+            "https://docs.google.com/document/d/1-Drnr4f6Xy30LMjwVu6OHTBAb1_UML30MFQL7oBKqhE/edit?usp=sharing",
+          room: "CHE2145",
+          day: "Monday",
+          time: "11:00 - 12:15 PM"
+        },
+        {
+          id: 15,
+          department: "ENME",
+          number: "289P",
+          title:
+            "Additive Manufacturing for Prosthetic Design",
+          facilitators: [
+            { name: "Saul Schaffer", email: "saul@umd.edu" },
+            { name: "Anna Packy", email: "apacky@eng.umd.edu" }
+          ],
+          advisor: "Angie Bryl, CPO",
+          credits: 2,
+          description:
+            "This project-oriented course is designed to provide students an introduction to prosthetic design while empowering them to take advantage of the vast 3D printing resources at the University of Maryland to create and test a unique prosthetic prototype. The course will cover prosthetic components and design considerations, as well as the basics of 3D printing, before delving into the interface between the two subjects.",
+          syllabus:
+            "https://drive.google.com/file/d/18cfFFcEie6tZJnUZD_fSaOkgD8gkkkUh/view",
+          room: "CSIC2118",
+          day: "Monday/Friday",
+          time: "5:30 - 6:30 PM (Lec), 6:30 - 8:30 PM (Lab)"
+        },
+        {
+          id: 16,
+          department: "ARTT",
+          number: "489Z",
+          title:
+            "Introduction to Design Software",
+          facilitators: [
+            { name: "Elise Nichols", email: "e.s.nichols17@gmail.com" }
+          ],
+          advisor: "Liese Zahabi",
+          credits: 1,
+          description:
+            "Covering the basics and processes of graphic design including Photoshop, Illustrator, and InDesign + basic GIFs.",
+          syllabus:
+            "https://drive.google.com/file/d/17vvRliu_hkbEFGWhSVLVHddzSfOdyRLd/view?usp=sharing",
+          room: "TYD2102",
+          day: "Thursday",
+          time: "6:30 - 7:30 PM"
         }
       ]
     }
