@@ -335,7 +335,7 @@ var CLASSES = {
         {
           id: 13,
           department: "CMSC",
-          number: "389F",
+          number: "389A",
           title:
             "Practical Deep Learning",
           facilitators: [
