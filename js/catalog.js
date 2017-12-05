@@ -443,7 +443,7 @@ var CLASSES = {
           syllabus:
             "",
           room: "CSIC3118",
-          day: "TBD",
+          day: "Friday",
           time: "4:00 - 4:50 PM"
         }
       ]
