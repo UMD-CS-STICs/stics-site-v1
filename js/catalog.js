@@ -425,6 +425,26 @@ var CLASSES = {
           room: "TYD2102",
           day: "Thursday",
           time: "6:30 - 7:30 PM"
+        },
+        {
+          id: 17,
+          department: "CMSC",
+          number: "389M",
+          title:
+            "SLAM: Why Robots Don't Crash",
+          facilitators: [
+            { name: "Ishaan Parikh", email: "iparikh@umd.edu" },
+            { name: "Michael Stevens", email: "msteven9@umd.edu" }
+          ],
+          advisor: "Larry Davis",
+          credits: 1,
+          description:
+            "Students will be provided with a practical and lightly theoretical understanding of the most popular algorithms that solve the Simultaneous Localization and Mapping (SLAM) problem to enable self driving car technology. An emphasis will be placed on the probabilistic methods that underpin the SLAM problem.",
+          syllabus:
+            "",
+          room: "CSIC3118",
+          day: "TBD",
+          time: "4:00 - 4:50 PM"
         }
       ]
     }
