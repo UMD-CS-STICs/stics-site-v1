@@ -403,7 +403,7 @@ var CLASSES = {
             "This project-oriented course is designed to provide students an introduction to prosthetic design while empowering them to take advantage of the vast 3D printing resources at the University of Maryland to create and test a unique prosthetic prototype. The course will cover prosthetic components and design considerations, as well as the basics of 3D printing, before delving into the interface between the two subjects.",
           syllabus:
             "https://drive.google.com/file/d/18cfFFcEie6tZJnUZD_fSaOkgD8gkkkUh/view",
-          room: "CSIC2118",
+          room: "EGR3108",
           day: "Monday/Friday",
           time: "5:30 - 6:30 PM (Lec), 6:30 - 8:30 PM (Lab)"
         },
