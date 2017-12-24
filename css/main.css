@@ -118,3 +118,12 @@ input {
     -webkit-filter: drop-shadow(0 26px 26px rgba(0, 0, 0, 0.3));
     filter: drop-shadow(0 26px 26px rgba(0, 0, 0, 0.3));
 }
+
+.faqHelperText {
+    color: grey;
+}
+
+.faqHelperText a {
+    text-decoration: none;
+    color: #8B572A;
+}
