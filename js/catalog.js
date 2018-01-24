@@ -445,6 +445,25 @@ var CLASSES = {
           room: "CSIC3118",
           day: "Friday",
           time: "4:00 - 4:50 PM"
+        },
+        {
+          id: 18,
+          department: "ENST",
+          number: "499W",
+          title:
+            "Earth Systems Sustainability",
+          facilitators: [
+            { name: "Gabriel Donnenberg", email: "gabedonnenberg@gmail.com" }
+          ],
+          advisor: "Dr. Jose Luis-Izursa",
+          credits: 1,
+          description:
+            "Earth Systems Sustainability offers a holistic examination of the diverse ways in which humans have affected natural systems of our planet over the last 15000 years of development. Considering unfolding environmental catastrophes and real, tangible, effective solutions in which we can all take part as individuals and advocate for as members of a globally conscious society. We will learn from each other and do what we can to save the parts of this world we consider most precious and worthy of fighting for.",
+          syllabus:
+            "https://drive.google.com/open?id=1fTjFX-S7TwKhl5_4YaQ6DfUyErBlwAgx",
+          room: "ANS1422",
+          day: "Wednesday",
+          time: "10:00 - 11:15 AM"
         }
       ]
     }
