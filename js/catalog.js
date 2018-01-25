@@ -464,6 +464,26 @@ var CLASSES = {
           room: "ANS1422",
           day: "Wednesday",
           time: "10:00 - 11:15 AM"
+        },
+        {
+          id: 19,
+          department: "MATH",
+          number: "299N",
+          title:
+            "The Mathematics of Ramanujan",
+          facilitators: [
+            { name: "Tanay Wakhare", email: "twakhare@gmail.com" },
+            { name: "Aaron Benda", email: "abenda19@gmail.com" }
+          ],
+          advisor: "Lawrence Washington",
+          credits: 1,
+          description:
+            "Srinivasan Ramanujan was born in rural India in 1887. Learning from a single book of theorems, he was able to rederive much of modern mathematics. After writing his first paper at 17, he recorded hundreds of pages of formulae that are still being explored today.  This course is meant to explain some of those results, and how they fit into modern number theory research today. This is not proof based; instead, this course is focused on presenting results and context.",
+          syllabus:
+            "https://www.dropbox.com/s/hli604km16q1k5n/syllabus.docx?dl=0",
+          room: "MATH0103",
+          day: "Friday",
+          time: "12:00 - 12:50 PM"
         }
       ]
     }
