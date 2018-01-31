@@ -525,7 +525,7 @@ var CLASSES = {
           credits: 1,
           description:
             "Explorations in Design will give students the opportunity to apply their unique backgrounds to the realm of design. Students will engage in hands-on learning with real clients from various industries. We will explore how good and bad design plays a role in our everyday lives, from the way we order coffee to the logos you see to the signs that help you navigate (or get lost on) the metro.",
-          syllabus: "ter.ps/IDEA258D"
+          syllabus: "ter.ps/IDEA258D",
           room: "ESJ2101",
           day: "Thursday",
           time: "2-3:15 PM"
