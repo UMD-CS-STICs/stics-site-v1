@@ -484,6 +484,51 @@ var CLASSES = {
           room: "MATH0103",
           day: "Friday",
           time: "12:00 - 12:50 PM"
+        },
+        {
+          id: 20,
+          department: "CMSC",
+          number: "389L",
+          title: "Practical Cloud Computing with AWS",
+          facilitators: [{ name: "Colin King", email: "colink@umd.edu" }],
+          advisor: "Neil Spring",
+          credits: 1,
+          description:
+            "This course provides a practical and project-oriented introduction to cloud computing with Amazon Web Services (AWS). Students will learn how to build applications using a variety of AWS services, including S3, EC2, Lambda, and Beanstalk. The course will culminate in a final resume-worthy project that will be built, deployed, and demoed to the class.",
+          syllabus: "https://github.com/UMD-CS-STICs/389Lspring18",
+          room: "CSIC3118",
+          day: "Friday",
+          time: "3-3:50 PM"
+        },
+        {
+          id: 21,
+          department: "CMSC",
+          number: "389E",
+          title: "Digital Logic through Minecraft",
+          facilitators: [{ name: "Alex Brassel", email: "abrassel@umd.edu" }, { name: "Jeremy Klein", email: "jklein@umd.edu"}],
+          advisor: "Jason Filippou",
+          credits: 1,
+          description:
+            "In this class, we will explore the theory and applications of combinatorial and sequential circuits. All projects will be done using Minecraft’s Redstone. The course will cover basic gates to more advanced circuits including memory gates and large sequential circuits. The first half of the class will focus on combinational logic gates, and the second half will introduce time-based sequential circuits.",
+          syllabus: "https://www.sharelatex.com/read/dvyhxndvpcmg",
+          room: "CSIC3118",
+          day: "Friday",
+          time: "1-1:50 PM"
+        },
+        {
+          id: 22,
+          department: "IDEA",
+          number: "258D",
+          title: "Explorations in Design",
+          facilitators: [{ name: "Jordan Steiner", email: "jasteiner11@gmail.com" }],
+          advisor: "Meenu Singh",
+          credits: 1,
+          description:
+            "Explorations in Design will give students the opportunity to apply their unique backgrounds to the realm of design. Students will engage in hands-on learning with real clients from various industries. We will explore how good and bad design plays a role in our everyday lives, from the way we order coffee to the logos you see to the signs that help you navigate (or get lost on) the metro.",
+          syllabus: "ter.ps/IDEA258D"
+          room: "ESJ2101",
+          day: "Thursday",
+          time: "2-3:15 PM"
         }
       ]
     }
