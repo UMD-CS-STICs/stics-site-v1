@@ -114,9 +114,10 @@ input {
 }
 
 .bigApple:hover {
-    transform: scale(1.1);
-    -webkit-filter: drop-shadow(0 26px 26px rgba(0, 0, 0, 0.3));
-    filter: drop-shadow(0 26px 26px rgba(0, 0, 0, 0.3));
+    /* transform: scale(1.1); */
+    width: 42%;
+    -webkit-filter: drop-shadow(0 26px 26px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0 26px 26px rgba(0, 0, 0, 0.2));
 }
 
 .faqHelperText {
