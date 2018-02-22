@@ -355,7 +355,6 @@ var CLASSES = {
             "Practical Deep Learning",
           facilitators: [
             { name: "Sujith Vishwajith", email: "svishwaj@terpmail.umd.edu" },
-            { name: "Sashank Thupukari", email: "sthupuka@umd.edu" }
           ],
           advisor: "Jordan Boyd-Graber",
           credits: 1,
@@ -414,7 +413,8 @@ var CLASSES = {
           title:
             "Introduction to Design Software",
           facilitators: [
-            { name: "Elise Nichols", email: "e.s.nichols17@gmail.com" }
+            { name: "Elise Nichols", email: "e.s.nichols17@gmail.com" },
+            { name: "Drew Darden", email: "drew.d712@gmail.com" }
           ],
           advisor: "Liese Zahabi",
           credits: 1,
@@ -442,9 +442,9 @@ var CLASSES = {
             "Students will be provided with a practical and lightly theoretical understanding of the most popular algorithms that solve the Simultaneous Localization and Mapping (SLAM) problem to enable self driving car technology. An emphasis will be placed on the probabilistic methods that underpin the SLAM problem.",
           syllabus:
             "",
-          room: "CSIC3118",
+          room: "CSI2118",
           day: "Friday",
-          time: "4:00 - 4:50 PM"
+          time: "2:00 - 2:50 PM"
         },
         {
           id: 18,
