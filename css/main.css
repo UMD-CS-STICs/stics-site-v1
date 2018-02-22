@@ -128,3 +128,7 @@ input {
     text-decoration: none;
     color: #8B572A;
 }
+
+.text-center {
+  text-align: center;
+}
