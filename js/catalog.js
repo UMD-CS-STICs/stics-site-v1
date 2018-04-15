@@ -73,6 +73,7 @@ function createDiv(cl) {
             ${getAdvisorText(cl.advisor)}
           </div> \
           <a target="_blank" href="${cl.syllabus}">syllabus</a> \
+          ${(cl.website == undefined) ? "" : `<br><a target="_blank" href="${cl.website}">website</a>`}
           <div class="hours">${cl.room}, ${cl.day} ${cl.time}</div> \
         </div> \
       </div> \
@@ -343,6 +344,8 @@ var CLASSES = {
             "From mastering impossibly complex games to creating precise AI for self-driving cars, Reinforcement Learning is set to be a breakthrough technology in the coming decade. \nReinforcement Learning is a powerful area of AI responsible for the recent successes of industry titans such as DeepMind, OpenAI, Google Brain, and Tesla. It’s inspired by a simple concept from behavioral psychology- people who receive a reward after doing an activity will continue doing that activity- and applies that principle in an algorithmic way to create intelligent systems.\nIf you’d like to learn how to build an AI of your own using concepts from the cutting-edge of academic research and industry technology, come take CMSC389F: Reinforcement Learning! This course provides a theory-centric introduction to Reinforcement Learning, and students will learn the key concepts and algorithms driving Reinforcement Learning, including Markov Decision Processes, Monte Carlo Learning, and Policy Gradient methods.",
           syllabus:
             "https://github.com/mlatmd/cmsc389F",
+          website:
+            "http://cmsc389f.umd.edu",
           room: "CSIC3118",
           day: "Friday",
           time: "12:00 - 12:50 PM"
