@@ -613,14 +613,14 @@ var CLASSES = {
           syllabus: "./assets/syllabi/CMSC389O_F18.pdf",
           sections: [
             {
-              room: "Section 0101: EDU1107",
-              day: "Friday",
-              time: "12-12:50 PM"
-            },
-            {
               room: "Section 0201: TWS0214",
               day: "Friday",
               time: "1-1:50 PM"
+            },
+            {
+              room: "Section 0101: EDU1107",
+              day: "Friday",
+              time: "12-12:50 PM"
             }
           ],
         },
