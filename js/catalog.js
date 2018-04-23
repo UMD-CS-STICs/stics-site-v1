@@ -626,7 +626,7 @@ var CLASSES = {
         },
         {
           id: 27,
-          department: "MATH299C",
+          department: "MATH",
           number: "299C",
           title: "Mathematics & Classical Music",
           facilitators: [
