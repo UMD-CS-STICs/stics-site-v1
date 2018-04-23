@@ -74,7 +74,11 @@ function createDiv(cl) {
           </div> \
           <a target="_blank" href="${cl.syllabus}">syllabus</a> \
           ${(cl.website == undefined) ? "" : `<br><a target="_blank" href="${cl.website}">website</a>`}
-          <div class="hours">${cl.room}, ${cl.day} ${cl.time}</div> \
+          ${
+            (cl.sections == undefined) ?
+            `<div class="hours">${cl.room}, ${cl.day} ${cl.time}</div>` :
+            `${cl.sections.reduce((acc, curr) => `<div class="hours">${curr.room}, ${curr.day} ${curr.time}</div>` + acc, "")}`
+          } \
         </div> \
       </div> \
       <div class="six columns description"> \
@@ -534,6 +538,110 @@ var CLASSES = {
           time: "2-3:15 PM"
         }
       ]
-    }
+    },
+    fall2018: {
+      departments: ["CMSC"],
+      classes: [
+        {
+          id: 23,
+          department: "ARTT",
+          number: "489Q",
+          title: "Front End Web Design and Development",
+          facilitators: [
+            { name: "David Ng", email: "dng5@umd.edu" },
+            { name: "Charlie Ching", email: "cching@terpmail.umd.edu" }
+          ],
+          advisor: "Brandon Morse",
+          credits: 1,
+          description:
+            "This course presents a practical and project-oriented introduction to modern front end web development. Students will learn to design and build websites using technologies such as HTML, CSS, JS, Sass, Bootstrap, and Git.",
+          syllabus: "./assets/syllabi/ARTT489Q_F18.pdf",
+          room: "ASY3304",
+          day: "Friday",
+          time: "12-12:50 PM"
+        },
+        {
+          id: 24,
+          department: "CMSC",
+          number: "389C",
+          title: "Bitcoin and Other Cryptocurrencies",
+          facilitators: [
+            { name: "TBD", email: "TBD" }
+          ],
+          advisor: "Jonathan Katz",
+          credits: 1,
+          description:
+            "This course provides a comprehensive, practical introduction to the technology behind cryptocurrency and the economy surrounding it. This course will have a heavy emphasis on Bitcoin, but will dive into other types of cryptocurrency as well, such as Ethereum. This course is primarily intended to focus on the technological aspect of cryptocurrency, but we will also spend time discussing the economics of cryptocurrency.",
+          syllabus: "TODO",
+          room: "BPS1238",
+          day: "Friday",
+          time: "1-1:50 PM"
+        },
+        {
+          id: 25,
+          department: "CMSC",
+          number: "389I",
+          title: "Disrupting Healthcare with AI",
+          facilitators: [
+            { name: "Sanna Madan", email: "smadan12@umd.edu" },
+            { name: "Kyle Liu", email: "kliu1234@umd.edu" }
+          ],
+          advisor: "Max Leiserson",
+          credits: 1,
+          description:
+            "This course provides a comprehensive, practical introduction to the intersection of machine learning and different challenges in healthcare. Students will apply basic predictive modeling techniques to fields such as early detection of disease, telemedicine, and mental health. Prior knowledge of biology is not required but a basic understanding of Python and/or machine learning techniques is recommended.",
+          syllabus: "./assets/syllabi/CMSC389I_F18.pdf",
+          room: "CSI2118",
+          day: "Friday",
+          time: "2-2:50 PM"
+        },
+        {
+          id: 26,
+          department: "CMSC",
+          number: "389O",
+          title: "The Coding Interview",
+          facilitators: [
+            { name: "Maria McCulley", email: "mmccull2@umd.edu" },
+            { name: "Sandra Sandeep", email: "sandrasandeep01@gmail.com" },
+            { name: "Andi Hopkins", email: "andihop@terpmail.umd.edu" },
+            { name: "Nelson Le", email: "nle@terpmail.umd.edu" }
+          ],
+          advisor: "Thomas Goldstein",
+          credits: 1,
+          description:
+            `Students will be provided with a comprehensive, practical introduction to technical interviews. Starting with basic topics such as Big O and String Manipulation. We will then move into more complex topics such as Bit Manipulation and Dynamic Programming. Most of the classes will be "In-Class Interviews" and take-home assignments will simulate real interview settings.`,
+          syllabus: "./assets/syllabi/CMSC389O_F18.pdf",
+          sections: [
+            {
+              room: "EDU1107",
+              day: "Friday",
+              time: "12-12:50 PM"
+            },
+            {
+              room: "TWS0214",
+              day: "Friday",
+              time: "1-1:50 PM"
+            }
+          ],
+        },
+        {
+          id: 27,
+          department: "MATH299C",
+          number: "299C",
+          title: "Mathematics & Classical Music",
+          facilitators: [
+            { name: "Siri Neerchal", email: "siri@terpmail.umd.edu" }
+          ],
+          advisor: "Niranjan Ramachandran",
+          credits: 1,
+          description:
+            "",
+          syllabus: "./assets/syllabi/MATH299C_F18.pdf",
+          room: "MTH0103",
+          day: "Friday",
+          time: "12-12:50 PM"
+        },
+      ]
+    },
   }
 };
