@@ -566,13 +566,14 @@ var CLASSES = {
           number: "389C",
           title: "Bitcoin and Other Cryptocurrencies",
           facilitators: [
-            { name: "TBD", email: "TBD" }
+            { name: "Cameron Payton", email: "cpayton@umd.edu" },
+            { name: "John Kos", email: "TBD" }
           ],
           advisor: "Jonathan Katz",
           credits: 1,
           description:
             "This course provides a comprehensive, practical introduction to the technology behind cryptocurrency and the economy surrounding it. This course will have a heavy emphasis on Bitcoin, but will dive into other types of cryptocurrency as well, such as Ethereum. This course is primarily intended to focus on the technological aspect of cryptocurrency, but we will also spend time discussing the economics of cryptocurrency.",
-          syllabus: "TODO",
+          syllabus: "./assets/syllabi/CMSC389C_F18.pdf",
           room: "BPS1238",
           day: "Friday",
           time: "1-1:50 PM"
