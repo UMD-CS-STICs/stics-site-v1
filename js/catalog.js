@@ -567,7 +567,7 @@ var CLASSES = {
           title: "Bitcoin and Other Cryptocurrencies",
           facilitators: [
             { name: "Cameron Payton", email: "cpayton@umd.edu" },
-            { name: "John Kos", email: "TBD" }
+            { name: "John Kos", email: "jkos@terpmail.umd.edu" }
           ],
           advisor: "Jonathan Katz",
           credits: 1,
