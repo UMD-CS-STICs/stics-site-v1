@@ -642,6 +642,24 @@ var CLASSES = {
           day: "Friday",
           time: "12-12:50 PM"
         },
+        {
+          id: 28,
+          department: "CMSC",
+          number: "389Q",
+          title: "iOS App Development",
+          facilitators: [
+            { name: "Travis Ho", email: "tho12@umd.edu" },
+            { name: "Tamer Bader", email: "tbader@terpmail.umd.edu" }
+          ],
+          advisor: "Neil Spring",
+          credits: 1,
+          description:
+            "This course teaches mobile development on the iOS platform. Students must have a Macintosh laptop (or access to one) in order to participate in this course. Topics covered will be Xcode, Swift, design patterns, creating UI, networking, and common libraries (as per request) such as ARKit and Core ML. By the end of this course, students should have the resources necessary to create their own apps and publish to the app store.",
+          syllabus: "./assets/syllabi/CMSC389Q_F18.pdf",
+          room: "CSI3118",
+          day: "Friday",
+          time: "2-2:50 PM"
+        },
       ]
     },
   }
