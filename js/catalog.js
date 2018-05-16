@@ -535,7 +535,7 @@ var CLASSES = {
           syllabus: "ter.ps/IDEA258D",
           room: "ESJ2101",
           day: "Thursday",
-          time: "2-3:15 PM"
+          time: "2 - 3:15 PM"
         }
       ]
     },
@@ -558,7 +558,7 @@ var CLASSES = {
           syllabus: "./assets/syllabi/ARTT489Q_F18.pdf",
           room: "ASY3304",
           day: "Friday",
-          time: "12-12:50 PM"
+          time: "12 - 12:50 PM"
         },
         {
           id: 24,
@@ -576,7 +576,7 @@ var CLASSES = {
           syllabus: "./assets/syllabi/CMSC389C_F18.pdf",
           room: "BPS1238",
           day: "Friday",
-          time: "1-1:50 PM"
+          time: "1 - 1:50 PM"
         },
         {
           id: 25,
@@ -594,7 +594,7 @@ var CLASSES = {
           syllabus: "./assets/syllabi/CMSC389I_F18.pdf",
           room: "CSI2118",
           day: "Friday",
-          time: "2-2:50 PM"
+          time: "2 - 2:50 PM"
         },
         {
           id: 26,
@@ -614,14 +614,19 @@ var CLASSES = {
           syllabus: "./assets/syllabi/CMSC389O_F18.pdf",
           sections: [
             {
+              room: "Section 0301: EGR2154",
+              day: "Friday",
+              time: "11 AM - 11:50 AM"
+            },
+            {
               room: "Section 0201: TWS0214",
               day: "Friday",
-              time: "1-1:50 PM"
+              time: "1 - 1:50 PM"
             },
             {
               room: "Section 0101: EDU1107",
               day: "Friday",
-              time: "12-12:50 PM"
+              time: "12 - 12:50 PM"
             }
           ],
         },
@@ -640,7 +645,7 @@ var CLASSES = {
           syllabus: "./assets/syllabi/MATH299C_F18.pdf",
           room: "MTH0103",
           day: "Friday",
-          time: "12-12:50 PM"
+          time: "12 - 12:50 PM"
         },
         {
           id: 28,
@@ -658,7 +663,7 @@ var CLASSES = {
           syllabus: "./assets/syllabi/CMSC389Q_F18.pdf",
           room: "CSI3118",
           day: "Friday",
-          time: "2-2:50 PM"
+          time: "2 - 2:50 PM"
         },
         {
           id: 29,
@@ -678,6 +683,63 @@ var CLASSES = {
           room: "PAC2164",
           day: "Wednesday",
           time: "11 AM - 12:15 PM"
+        },
+        {
+          id: 30,
+          department: "CMSC",
+          number: "398U",
+          title: "Introduction to Developing AR Applications with Hololens",
+          facilitators: [
+            { name: "John Ball", email: "jlball@terpmail.umd.edu" },
+            { name: "Matt Graber", email: "mgraber1@terpmail.umd.edu" }
+          ],
+          advisor: "Matthias Zwicker",
+          credits: 1,
+          description:
+            "A hands on, project driven introduction to developing Augmented Reality applications for devices like the Microsoft Hololens using the Microsoft Mixed Reality Toolkit and the Unity 3D engine. Topics will include AR design thinking, the Unity scripting API, deploying applications to Hololens, and the technology behind AR devices. Students will explore the capabilities of AR devices through bi-weekly projects designed to give them usable, valuable skills as quickly as possible. Basic programming and Unity experience, while not strictly required, are strongly recommended.",
+          syllabus:
+            "./assets/syllabi/CMSC398U_F18.pdf",
+          room: "CSI1122",
+          day: "Friday",
+          time: "1 - 1:50 PM"
+        },
+        {
+          id: 31,
+          department: "CMSC",
+          number: "398F",
+          title: "Reinforcement Learning",
+          facilitators: [
+            { name: "Dhruv Mehta", email: "dhruvnm@umd.edu" },
+            { name: "Johann Miller", email: "jkmiller@umd.edu" }
+          ],
+          advisor: "James Reggia",
+          credits: 1,
+          description:
+            "This course provides an overview of the key concepts and algorithms of Reinforcement Learning, an area of artificial intelligence research responsible for recent achievements such as AlphaGo and robotic control. Students will implement learning algorithms for simple tasks such as mazes and pong games.",
+          syllabus:
+            "./assets/syllabi/CMSC398F_F18.pdf",
+          room: "EGR2116",
+          day: "Friday",
+          time: "2 PM - 2:50 PM"
+        },
+        {
+          id: 31,
+          department: "CMSC",
+          number: "398K",
+          title: "Full-stack Web Development with Node.js",
+          facilitators: [
+            { name: "Benny Cheng", email: "bcheng1996@gmail.com" },
+            { name: "Chirag Shankar", email: "chishankar@gmail.com" }
+          ],
+          advisor: "John Dickerson",
+          credits: 1,
+          description:
+            "This course provides a comprehensive, practical introduction to modern full-stack web development using JavaScript and Node.js. The course will start with basic HTML/CSS/JavaScript. Then, we will move into Node.js and learn how to deploy a website from there. We will learn about Express.js (server-side development module) and MongoDB (database) in order to create a complete web application.",
+          syllabus:
+            "https://github.com/UMD-CS-STICs/389Kfall18/blob/master/README.md",
+          room: "EGR2154",
+          day: "Friday",
+          time: "2 PM - 2:50 PM"
         },
       ]
     },
