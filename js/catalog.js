@@ -755,9 +755,28 @@ var CLASSES = {
             "This course is designed to teach how to use the most common and useful features of Wolfram Mathematica, an extremely powerful technical computing system that can be used to model a wide range of problems. Plotting functions in several ways, making models that can be manipulated in real time by the user, and efficiently computing solutions to complicated equations are among the things we'll cover. We'll use these skills to model various structures in physics, economics, calculus and more, and for the final project every student will pick something relevant to their major (or interest otherwise) to model, whether that be in physics, math, engineering, economics, or anything else mathematical in nature. Over the course of learning these tools students will encounter profound examples of what Mathematica can do, seeing first hand that creating models that can be manipulated in real time helps greatly in understanding the underlying symmetries and properties of a problem.",
           syllabus:
             "./assets/syllabi/MATH299M_F18.pdf",
-          room: "MATH3115",
+          room: "MTH0401",
           day: "Friday",
           time: "2 PM - 2:50 PM"
+        },
+        {
+          id: 33,
+          department: "MATH",
+          number: "299P",
+          title: "Proofs from The Book",
+          facilitators: [
+            { name: "Tanay Wakhare", email: "twakhare@gmail.com" },
+            { name: "Erik Metz", email: "emetz1618@gmail.com" }
+          ],
+          advisor: "Lawrence Washington",
+          credits: 1,
+          description:
+            "Combinatorics is the study of counting. Despite its deceptively simple name, it is one of the most active areas of research in modern mathematics. We discuss some of the basic ideas behind combinatorics, and their unexpected applications. The proofs we discuss are so elegant that Paul Erdos once said they are from “The Book” – God’s book of the most elegant proof of each theorem.",
+          syllabus:
+            "./assets/syllabi/MATH299P_F18.pdf",
+          room: "MTH0407",
+          day: "Friday",
+          time: "1 PM - 1:50 PM"
         },
       ]
     },
