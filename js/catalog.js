@@ -778,6 +778,24 @@ var CLASSES = {
           day: "Friday",
           time: "1 PM - 1:50 PM"
         },
+        {
+          id: 34,
+          department: "BMGT",
+          number: "299A",
+          title: "Designing for Business",
+          facilitators: [
+            { name: "Katie Zeng", email: "zeng.katieli@gmail.com" }
+          ],
+          advisor: "Mary Harms",
+          credits: 1,
+          description:
+            "This course will introduce you to the fundamentals of graphic design in the context of business management. Students will be challenged to apply their design knowledge with hands-on activities, ranging from ideation to execution. Students will learn the necessity of branding, design and design thinking in the business world, while gaining the technical skills necessary to execute on their visions. To sharpen their communication skills, students will participate in in-class design challenges and a final class presentation.",
+          syllabus:
+            "./assets/syllabi/BMGT299A_F18.pdf",
+          room: "VMH1511",
+          day: "Tuesday",
+          time: "3:30 PM - 4:45 PM"
+        },
       ]
     },
   }
