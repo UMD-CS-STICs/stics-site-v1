@@ -687,7 +687,7 @@ var CLASSES = {
         {
           id: 30,
           department: "CMSC",
-          number: "398U",
+          number: "389U",
           title: "Introduction to Developing AR Applications with Hololens",
           facilitators: [
             { name: "John Ball", email: "jlball@terpmail.umd.edu" },
@@ -698,7 +698,7 @@ var CLASSES = {
           description:
             "A hands on, project driven introduction to developing Augmented Reality applications for devices like the Microsoft Hololens using the Microsoft Mixed Reality Toolkit and the Unity 3D engine. Topics will include AR design thinking, the Unity scripting API, deploying applications to Hololens, and the technology behind AR devices. Students will explore the capabilities of AR devices through bi-weekly projects designed to give them usable, valuable skills as quickly as possible. Basic programming and Unity experience, while not strictly required, are strongly recommended.",
           syllabus:
-            "./assets/syllabi/CMSC398U_F18.pdf",
+            "./assets/syllabi/CMSC389U_F18.pdf",
           room: "CSI1122",
           day: "Friday",
           time: "1 - 1:50 PM"
@@ -706,7 +706,7 @@ var CLASSES = {
         {
           id: 31,
           department: "CMSC",
-          number: "398F",
+          number: "389F",
           title: "Reinforcement Learning",
           facilitators: [
             { name: "Dhruv Mehta", email: "dhruvnm@umd.edu" },
@@ -717,7 +717,7 @@ var CLASSES = {
           description:
             "This course provides an overview of the key concepts and algorithms of Reinforcement Learning, an area of artificial intelligence research responsible for recent achievements such as AlphaGo and robotic control. Students will implement learning algorithms for simple tasks such as mazes and pong games.",
           syllabus:
-            "./assets/syllabi/CMSC398F_F18.pdf",
+            "./assets/syllabi/CMSC389F_F18.pdf",
           room: "EGR2116",
           day: "Friday",
           time: "2 PM - 2:50 PM"
