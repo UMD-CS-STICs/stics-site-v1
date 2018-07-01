@@ -725,7 +725,7 @@ var CLASSES = {
         {
           id: 31,
           department: "CMSC",
-          number: "398K",
+          number: "389K",
           title: "Full-stack Web Development with Node.js",
           facilitators: [
             { name: "Benny Cheng", email: "bcheng1996@gmail.com" },
