@@ -641,7 +641,7 @@ var CLASSES = {
           advisor: "Niranjan Ramachandran",
           credits: 1,
           description:
-            "The aim of this course is to explore the historical discoveries in mathematics that have influenced Western classical music, as well as musical expressions of specific mathematical concepts. This course is not meant to be a rigorous introduction to music theory or mathematics; rather, it is focused on introducing students to the classical repertoire through mathematical ideas that appear in it. Students will also have an opportunity to explore mathematics through music in the form of a creative project.",
+            "The aim of this course is to explore the historical discoveries in mathematics that have influenced Western classical music, as well as musical expressions of specific mathematical concepts. This course is not meant to be a rigorous introduction to music theory or mathematics; rather, it is focused on introducing students to classical music through mathematical ideas that appear in it. Students will also have an opportunity to explore mathematics through music in the form of a creative project.",
           syllabus: "./assets/syllabi/MATH299C_F18.pdf",
           room: "MTH0103",
           day: "Friday",
@@ -794,6 +794,61 @@ var CLASSES = {
             "./assets/syllabi/BMGT299A_F18.pdf",
           room: "VMH1511",
           day: "Tuesday",
+          time: "3:30 PM - 4:45 PM"
+        },
+        {
+          id: 35,
+          department: "IDEA",
+          number: "258D",
+          title: "Explorations in Design",
+          facilitators: [
+            { name: "Tianxin Chen", email: "chen128@umd.edu" }
+          ],
+          advisor: "Meenu Singh",
+          credits: 1,
+          description:
+            "“Exploration in Design” gives students the opportunity to apply their unique backgrounds to the realm of design. Students will engage in hands-on learning with real clients from various industries. We will explore how good and bad design plays a role in our everyday lives, from the way we order coffee to the logos on ads to the signs that help you navigate (or get lost on) the metro.",
+          syllabus:
+            "./assets/syllabi/IDEA258D_F18.pdf",
+          room: "ESJ2101",
+          day: "Thursday",
+          time: "12 PM - 1:30 PM"
+        },
+        {
+          id: 36,
+          department: "IDEA",
+          number: "258Z",
+          title: "Digital Product Design",
+          facilitators: [
+            { name: "Andres Arbelaez", email: "andresarbelaez08@gmail.com" },
+            { name: "Nathalyn Nunoo", email: "nathalyn.nunoo@gmail.com" }
+          ],
+          advisor: "Meenu Singh",
+          credits: 1,
+          description:
+            "In this course you’ll be introduced and immersed into user- centric design experiences for mobile and web products. You’ll get to apply your learnings to real startup companies and use your design and product-thinking skills to design your own digital product. This class is for all level of designers/builders - from newbie to pro!",
+          syllabus:
+            "./assets/syllabi/IDEA258Z_F18.pdf",
+          room: "ESJ2101",
+          day: "Thursday",
+          time: "2 PM - 3:15 PM"
+        },
+        {
+          id: 37,
+          department: "AASP",
+          number: "299Y",
+          title: "Introduction to Yoruba",
+          facilitators: [
+            { name: "OreOluwa Aluko", email: "oaluko@terpmail.umd.edu" },
+          ],
+          advisor: "Jason Nichols",
+          credits: 1,
+          description:
+            "This is a beginner’s course for anyone who has had little to no exposure to Yorùbá or those who know Yorùbá but would like to learn how to read and write in the language. The main focus of this course will be basic greetings, sentence structure and vocabulary.",
+          syllabus:
+            "./assets/syllabi/AASP299Y_F18.pdf",
+          room: "WDS0104",
+          day: "Monday",
           time: "3:30 PM - 4:45 PM"
         },
       ]
